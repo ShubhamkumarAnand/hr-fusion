@@ -1,8 +1,10 @@
+import Link from "next/link";
+import Image from "next/image";
 import { FC } from "react";
 
-interface IPageProps {}
+interface IPageProps { }
 
-const Page: FC<IPageProps> = ({}) => {
+const Page: FC<IPageProps> = ({ }) => {
   return (
     <>
       <div className="flex h-screen animate-pulse items-center justify-center text-3xl font-semibold text-blue-700">
