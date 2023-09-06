@@ -11,8 +11,8 @@ const page = () => {
           </Link>
           <Image src="img/hamburger.svg" alt="hamburger-menu" height={25} width={20} />
         </nav>
-        <main className="mt-8 lg:mt-20 h-full lg:flex">
-          <div className="md:w-1/2 lg:w-1/3 lg:mr-20 max-w-md">
+        <main className="mt-8 h-full lg:mt-20 lg:flex">
+          <div className="max-w-md md:w-1/2 lg:mr-20 lg:w-1/3">
             <div className="my-10 space-y-2">
               <h2 className="text-3xl font-semibold tracking-wide">Welcome 💎</h2>
               <p className="text-sm text-gray-700">Welcome to HR-Fusion! Please enter your details.</p>
@@ -45,15 +45,15 @@ const page = () => {
               </button>
             </form>
             <div className="flex items-center justify-center text-sm">
-              <p>Already have an account ? &nbsp;</p>
+              <p>Already have an account?&nbsp;</p>
               <Link href="/login" className="border-spacing-0 border-b-[1px] border-black font-semibold">
                 {" "}
                 Log in
               </Link>
             </div>
           </div>
-          <div className="hidden lg:flex mt-10">
-            <Image src="/img/hr-fusion.jpg" width={900} height={900} alt="hr-fusion-auth"/>
+          <div className="mt-10 hidden lg:flex">
+            <Image src="/img/hr-fusion.jpg" width={900} height={900} alt="hr-fusion-auth" />
           </div>
         </main>
       </div>
