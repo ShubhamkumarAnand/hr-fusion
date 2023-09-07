@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HR-Fusion",
+  title: "Dashboard",
   description: "HR-Fusion : An Effective workforce management software",
 };
 

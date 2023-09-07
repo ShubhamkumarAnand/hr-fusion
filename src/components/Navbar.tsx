@@ -36,7 +36,7 @@ const Navbar = () => {
           </Link>
         </div>
       </nav>
-      <nav className="flex items-center justify-between space-x-12 overflow-scroll px-5 py-5 hover:shadow-lg lg:px-10">
+      <nav className="flex items-center justify-between space-x-12 overflow-auto px-5 py-5 hover:shadow-lg lg:px-10">
         <Link href="/dashboard" className="flex items-center gap-3 text-gray-500 hover:text-black">
           <Image src="/img/dashboard/dashboard.svg" height={25} width={25} alt="dashboard" />
           <p className="mt-auto font-medium">Dashboard</p>
